@@ -1,7 +1,7 @@
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
 	return (
-		<footer>
+		<footer className='content-wrapper footer'>
 			<p>
 				&copy; {currentYear} Katherine Siegel |
 				Random Stretch Generator. <br />

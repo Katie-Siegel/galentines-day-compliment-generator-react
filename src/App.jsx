@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import Footer from './components/Footer.jsx';
-import './App.css';
+import './css/App.css';
 
 function App() {
 	return (
 		<section id='compliment-generator'>
-			<section className='name-request'>
+			<section className='name-request content-wrapper'>
 				<label htmlFor='name-input'>
 					Enter your best friend's name below!
 				</label>
