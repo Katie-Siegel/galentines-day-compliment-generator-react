@@ -44,6 +44,7 @@ function App() {
 				</button>
 				<p>{nameMessage}</p>
 			</section>
+			<Compliment name={name} />
 			<Footer />
 		</section>
 	);
