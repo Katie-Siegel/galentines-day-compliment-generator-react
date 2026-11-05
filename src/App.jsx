@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Compliment from './components/Compliment.jsx';
 import Footer from './components/Footer.jsx';
 import './css/App.css';
 
