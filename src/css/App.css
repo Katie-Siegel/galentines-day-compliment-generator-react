@@ -105,6 +105,11 @@ h4 {
     line-height: 2.15rem;
   }
 }
+@media screen and (min-width: 1025px) {
+  #compliment-generator .name-request input {
+    font-size: 2.5rem;
+  }
+}
 #compliment-generator .name-request #submit-button {
   width: 50vw;
   font-family: "Snippet", cursive;
@@ -197,6 +202,7 @@ h4 {
 .footer {
   margin: 10px;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 @media print {

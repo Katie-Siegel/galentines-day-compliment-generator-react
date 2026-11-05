@@ -105,6 +105,9 @@ h4 {
 				font-size: 2rem;
 				line-height: 2.15rem;
 			}
+			@include media-query(laptop) {
+				font-size: 2.5rem;
+			}
 		}
 		#submit-button {
 			width: 50vw;
@@ -196,6 +199,7 @@ h4 {
 .footer {
 	margin: 10px;
 	font-size: 1.5rem;
+	text-align: center;
 }
 
 @media print {

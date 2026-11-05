@@ -1,14 +1,27 @@
-const Compliment = () => {
-	const currentYear = new Date().getFullYear();
+import { useState } from 'react';
+import '../css/App.css';
+
+function Compliment({ name }) {
+	const [compliment, setCompliment] =
+		useState('');
+	const genComp = (e) => {
+		e.preventDefault();
+
+		setCompliment(
+			`Hey ${name}! You are an amazing friend!`,
+		);
+	};
+
 	return (
-		<footer className='content-wrapper footer'>
-			<p>
-				&copy; {currentYear} Katherine Siegel |
-				Random Stretch Generator. <br />
-				All rights reserved.
-			</p>
-		</footer>
+		<section className='compliment-view content-wrapper'>
+			<p className='compliment'>{compliment}</p>
+			<button
+				className='compliment-button'
+				onClick={genComp}>
+				Get a Compliment!
+			</button>
+		</section>
 	);
-};
+}
 
 export default Compliment;
