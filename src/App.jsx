@@ -4,28 +4,25 @@ import './App.css';
 
 function App() {
 	return (
-		<>
-			<section id='compliment-generator'>
-				<section className='name-request'>
-					<h1>Compliment Generator</h1>
-					<p>
-						Click the button to generate a
-						compliment!
-					</p>
-					<button id='compliment-button'>
-						Generate Compliment
-					</button>
-					<p id='compliment'></p>
-				</section>
-				<section className='compliment-view'>
-					<h2>Your Compliment</h2>
-					<p id='compliment-output'></p>
-				</section>
-				<footer>
-					<Footer />
-				</footer>
+		<section id='compliment-generator'>
+			<section className='name-request'>
+				<label htmlFor='name-input'>
+					Enter your best friend's name below!
+				</label>
+				<input
+					type='text'
+					id='name-input'
+					name='name-input'
+					placeholder="Enter your best friend's name"
+				/>
+				<button
+					type='submit'
+					id='submit-button'>
+					That's My Girl!
+				</button>
 			</section>
-		</>
+			<Footer />
+		</section>
 	);
 }
 
