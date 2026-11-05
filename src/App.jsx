@@ -3,6 +3,23 @@ import Footer from './components/Footer.jsx';
 import './css/App.css';
 
 function App() {
+	const [name, setName] = useState('');
+	const [nameMessage, setNameMessage] =
+		useState('');
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		if (name) {
+			setNameMessage(
+				`${name} sounds amazing! Let's get a compliment for them!`,
+			);
+		} else {
+			setNameMessage(
+				"Please enter your best friend's name to receive a compliment!",
+			);
+		}
+	};
+
 	return (
 		<section id='compliment-generator'>
 			<section className='name-request content-wrapper'>
@@ -11,15 +28,21 @@ function App() {
 				</label>
 				<input
 					type='text'
+					value={name}
+					onChange={(e) =>
+						setName(e.target.value)
+					}
 					id='name-input'
 					name='name-input'
 					placeholder="Enter your best friend's name"
 				/>
 				<button
 					type='submit'
-					id='submit-button'>
+					id='submit-button'
+					onClick={handleSubmit}>
 					That's My Girl!
 				</button>
+				<p>{nameMessage}</p>
 			</section>
 			<Footer />
 		</section>
