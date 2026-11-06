@@ -51,7 +51,5 @@ const noun = [
 	'music box',
 	'doorknocker',
 ];
-return noun[
-	Math.floor(Math.random() * noun.length)
-];
+
 export default noun;

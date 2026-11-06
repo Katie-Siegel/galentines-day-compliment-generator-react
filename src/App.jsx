@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Compliment from './components/Compliment.jsx';
-import Footer from './components/Footer.jsx';
+import Compliment from './components/Compliment';
+import Footer from './components/Footer';
 import './css/App.css';
 
 function App() {

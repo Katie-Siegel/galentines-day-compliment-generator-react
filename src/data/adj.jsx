@@ -40,8 +40,4 @@ const adj = [
 	'chaotically kind',
 ];
 
-return adj[
-	Math.floor(Math.random() * adj.length)
-];
-
 export default adj;

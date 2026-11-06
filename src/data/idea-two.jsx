@@ -10,8 +10,5 @@ const ideaTwo = [
 	'Whimsy',
 	'Gleamspell',
 ];
-return ideaTwo[
-	Math.floor(Math.random() * ideaTwo.length)
-];
 
 export default ideaTwo;
