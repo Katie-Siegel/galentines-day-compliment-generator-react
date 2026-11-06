@@ -10,7 +10,7 @@ function Compliment({ name }) {
 		e.preventDefault();
 
 		setCompliment(
-			`Hey ${name}! You are an amazing friend!`,
+			`<h3>Hey ${name}! You are a <span>${adj} ${noun}</span> of <span>${ideaOne}</span> and <span>${ideaTwo}</span>!</h3>`,
 		);
 	};
 
