@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import '../css/App.css';
+import noun from '.data/noun.js';
+import adj from '../data/adj.js';
 
 function Compliment({ name }) {
 	const [compliment, setCompliment] =
