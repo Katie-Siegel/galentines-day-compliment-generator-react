@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import '../css/App.css';
-import noun from '.data/noun.js';
+import noun from '../data/noun.jsx';
 import adj from '../data/adj.js';
+import ideaOne from '../data/idea-one.js';
+import ideaTwo from '../data/idea-two.js';
 
 function Compliment({ name }) {
 	const [compliment, setCompliment] =
