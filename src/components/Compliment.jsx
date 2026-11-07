@@ -7,8 +7,9 @@ import ideaOne from '../data/idea-one';
 import ideaTwo from '../data/idea-two';
 
 function Compliment({ name }) {
-	const [compliment, setCompliment] =
-		useState('');
+	const [compliment, setCompliment] = useState(
+		[],
+	);
 
 	const randomItem = (array) => {
 		return array[
@@ -27,7 +28,7 @@ function Compliment({ name }) {
 		console.log(randomIdeaOne);
 		console.log(randomIdeaTwo);
 
-		setCompliment(
+		const newCompliment = (
 			<div>
 				<h3>
 					Hey <span>{name}</span>! You are a{' '}
@@ -36,8 +37,13 @@ function Compliment({ name }) {
 					<span>{randomIdeaOne}</span> and{' '}
 					<span>{randomIdeaTwo}</span>!
 				</h3>
-			</div>,
+			</div>
 		);
+
+		setCompliment((prevCompliments) => [
+			...prevCompliments,
+			newCompliment,
+		]);
 	};
 
 	return (
