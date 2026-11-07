@@ -48,6 +48,8 @@ function App() {
 			</section>
 			<Compliment name={name} />
 			<Image />
+			{/* Add Quote Functionality Here
+      Add Share Functionality Here */}
 			<div className='border'></div>
 			<Footer />
 		</section>

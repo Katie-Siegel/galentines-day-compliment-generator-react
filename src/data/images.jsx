@@ -21,3 +21,5 @@ const images = [
 ];
 
 export default images;
+
+// NOTE: Remember to decrease img file sizes to improve page load time. Use a tool like TinyPNG or ImageOptim to compress images without losing quality.
