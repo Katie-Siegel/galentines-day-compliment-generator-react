@@ -1,20 +1,16 @@
-
+import { useState } from 'react';
+import images from '../data/images';
 
 function Image() {
-	const [image, setImage] = useState(
-		(),
-	);
+	const [randomImage, setRandomImage] = useState(
 
-	const randomImage = (array) => {
-		return array[
-			Math.floor(Math.random() * array.length)
-		];
-	};
+		images[ Math.floor(Math.random() * images.length)];
+	);
 
 
 	return (
 		<section className='compliment-image content-wrapper'>
-            <img>{randomImage}</img>
+			<img src={randomImage} alt={randomImage}></img>
 		</section>
 	);
 }
