@@ -46,6 +46,8 @@ function App() {
 				<p>{nameMessage}</p>
 			</section>
 			<Compliment name={name} />
+			<Image />
+			<Quote />
 			<div class='border'></div>
 			<Footer />
 		</section>
