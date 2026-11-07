@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Compliment from './components/Compliment';
 import Image from './components/Image';
-import Quote from './components/Quote';
 import Footer from './components/Footer';
 import './css/App.css';
 
@@ -49,8 +48,7 @@ function App() {
 			</section>
 			<Compliment name={name} />
 			<Image />
-			<Quote />
-			<div class='border'></div>
+			<div className='border'></div>
 			<Footer />
 		</section>
 	);
