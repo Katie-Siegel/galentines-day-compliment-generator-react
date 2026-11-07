@@ -49,12 +49,16 @@ function Compliment({ name }) {
 	return (
 		<section className='compliment-view content-wrapper'>
 			<div className='compliment'>
-				{compliment}
+				{compliment.map((item, index) => (
+					<div key={index}>{item}</div>
+				))}
 			</div>
 			<button
 				className='compliment-button'
 				onClick={genComp}>
-				Get a Compliment!
+				{compliment.length === 0
+					? 'Get a Compliment!'
+					: 'Compliment Again!'}
 			</button>
 		</section>
 	);
