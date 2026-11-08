@@ -42,7 +42,7 @@ h1 {
 	font-size: 4rem;
 	line-height: 5rem;
 	color: $color-accent;
-	margin: 10px 0;
+	margin: 1rem 0;
 	text-align: center;
 }
 
@@ -50,31 +50,13 @@ h2 {
 	font-family: 'Snippet', sans-serif;
 	font-size: 1.5rem;
 	line-height: 2rem;
-	margin: 10px 0;
-	color: $color-text-medium;
-}
-
-h3 {
-	font-family:
-		'Sweety Bakery', 'Snippet', 'Heebo',
-		sans-serif;
-	font-size: 3rem;
-	line-height: 3.5rem;
-	color: $color-text-light;
-	margin: 10px 0;
-}
-
-h4 {
-	font-family:
-		'Sweety Bakery', 'Heebo', sans-serif;
-	font-size: 2.5rem;
-	line-height: 3rem;
+	margin: 1rem 0;
 	color: $color-text-medium;
 }
 
 .content-wrapper {
 	width: 90%;
-	margin: 20px auto;
+	margin: 1.5rem auto;
 	text-align: center;
 	display: flex;
 	flex-flow: wrap;
@@ -83,7 +65,7 @@ h4 {
 }
 
 .header-details {
-	margin: 40px auto;
+	margin: 3.3rem auto;
 	text-align: center;
 	display: flex;
 	flex-flow: wrap;
@@ -101,136 +83,12 @@ h4 {
 }
 
 .intro {
-	margin: 20px auto;
+	margin: 1.5rem auto;
 	text-align: center;
 	@include media-query(desktop) {
 		display: block;
 	}
 }
-
-// .name-request {
-// 	label {
-// 		width: 100%;
-// 		font-size: 2rem;
-// 		line-height: 2.5rem;
-// 		margin: 20px auto;
-// 	}
-// 	#name-input {
-// 		width: 50vw;
-// 		font-size: 2rem;
-// 		line-height: 2.15rem;
-// 		margin: 20px auto;
-// 		padding: 10px 20px;
-// 		background-color: $color-bg-light;
-// 		border: 5px solid $color-accent;
-// 		border-radius: 70px;
-// 		text-align: center;
-// 		&::placeholder {
-// 			color: $color-text-medium;
-// 			font-family: 'Snippet', cursive;
-// 			align-text: center;
-// 		}
-// 		@include media-query(tablet) {
-// 			font-size: 2rem;
-// 			line-height: 2.15rem;
-// 		}
-// 	}
-// 	#submit-button {
-// 		width: 50vw;
-// 		font-family: 'Snippet', cursive;
-// 		color: $color-text-medium;
-// 		font-size: 2rem;
-// 		line-height: 2.15rem;
-// 		margin: 20px auto;
-// 		padding: 10px 20px;
-// 		background-color: $color-bg-light;
-// 		border: 5px solid $color-accent;
-// 		border-radius: 70px;
-// 		align-items: center;
-// 		@include media-query(tablet) {
-// 			font-size: 2rem;
-// 			line-height: 2.15rem;
-// 		}
-// 		&:hover {
-// 			background-color: $color-bg-dark;
-// 			color: $color-text-light;
-// 			border: 5px solid $color-accent;
-// 		}
-// 	}
-// 	.name-message {
-// 		width: 90%;
-// 		margin: 20px auto;
-// 		color: $color-text-medium;
-// 		font-size: 3rem;
-// 		line-height: 3.5rem;
-// 	}
-// 	@include media-query(laptop) {
-// 		display: flex;
-// 		flex-flow: row wrap;
-// 		justify-content: center;
-// 		align-items: center;
-// 	}
-// }
-
-// .compliment-view {
-// 	h3 {
-// 		font-family: 'Snippet', cursive;
-// 		font-size: 1.9rem;
-// 		line-height: 2rem;
-// 		margin: 40px 0;
-// 	}
-// 	span {
-// 		color: $color-accent;
-// 		text-decoration: underline;
-// 	}
-// 	.compliment {
-// 		width: 90%;
-// 		margin: 0 auto;
-// 		text-align: center;
-// 	}
-// 	.compliment-button {
-// 		width: 90%;
-// 		font-family: 'Sweety Bakery', cursive;
-// 		color: $color-text-medium;
-// 		font-size: 2rem;
-// 		line-height: 2.15rem;
-// 		margin: 30px auto;
-// 		padding: 10px;
-// 		background-color: $color-bg-light;
-// 		border: 5px solid $color-accent;
-// 		border-radius: 70px;
-// 		align-items: center;
-// 		@include media-query(desktop) {
-// 			max-width: 780px;
-// 		}
-// 		&:hover {
-// 			background-color: $color-bg-dark;
-// 			color: $color-text-light;
-// 			border: 5px solid $color-accent;
-// 		}
-// 	}
-// }
-
-// .compliment-image {
-// 	img {
-// 		width: 100%;
-// 		height: auto;
-// 		margin: 20px auto;
-// 	}
-// }
-
-// .compliment-quote {
-// 	font-family: 'Snippet', cursive;
-// 	font-size: 2.5rem;
-// 	line-height: 3rem;
-// 	color: $color-text-medium;
-// 	margin: 40px auto;
-// }
-
-// .footer {
-// 	margin: 10px;
-// 	font-size: 1.5rem;
-// }
 
 @media print {
 	*,

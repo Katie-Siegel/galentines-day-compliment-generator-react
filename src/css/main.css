@@ -41,7 +41,7 @@ h1 {
   font-size: 4rem;
   line-height: 5rem;
   color: #0180c5;
-  margin: 10px 0;
+  margin: 1rem 0;
   text-align: center;
 }
 
@@ -49,28 +49,13 @@ h2 {
   font-family: "Snippet", sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
-  margin: 10px 0;
-  color: #e38fdc;
-}
-
-h3 {
-  font-family: "Sweety Bakery", "Snippet", "Heebo", sans-serif;
-  font-size: 3rem;
-  line-height: 3.5rem;
-  color: #b194fc;
-  margin: 10px 0;
-}
-
-h4 {
-  font-family: "Sweety Bakery", "Heebo", sans-serif;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  margin: 1rem 0;
   color: #e38fdc;
 }
 
 .content-wrapper {
   width: 90%;
-  margin: 20px auto;
+  margin: 1.5rem auto;
   text-align: center;
   display: flex;
   flex-flow: wrap;
@@ -79,7 +64,7 @@ h4 {
 }
 
 .header-details {
-  margin: 40px auto;
+  margin: 3.3rem auto;
   text-align: center;
   display: flex;
   flex-flow: wrap;
@@ -97,7 +82,7 @@ h4 {
 }
 
 .intro {
-  margin: 20px auto;
+  margin: 1.5rem auto;
   text-align: center;
 }
 @media screen and (min-width: 1680px) {

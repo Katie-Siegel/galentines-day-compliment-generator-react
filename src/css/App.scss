@@ -205,14 +205,14 @@
 .name-request {
 	label {
 		width: 100%;
-		font-size: 2rem;
-		line-height: 2.5rem;
+		font-size: 2.5rem;
+		line-height: 3rem;
 		margin: 20px auto;
 	}
 	#name-input {
-		width: 50vw;
-		font-size: 2rem;
-		line-height: 2.15rem;
+		width: 80vw;
+		font-size: 1.5rem;
+		line-height: 2rem;
 		margin: 20px auto;
 		padding: 10px 20px;
 		background-color: $color-bg-light;
@@ -230,11 +230,11 @@
 		}
 	}
 	#submit-button {
-		width: 50vw;
+		width: 70vw;
 		font-family: 'Snippet', cursive;
 		color: $color-text-medium;
-		font-size: 2rem;
-		line-height: 2.15rem;
+		font-size: 1.5rem;
+		line-height: 2rem;
 		margin: 20px auto;
 		padding: 10px 20px;
 		background-color: $color-bg-light;
@@ -252,11 +252,11 @@
 		}
 	}
 	.name-message {
-		width: 90%;
+		width: 100%;
 		margin: 20px auto;
 		color: $color-text-medium;
-		font-size: 3rem;
-		line-height: 3.5rem;
+		font-size: 2.5rem;
+		line-height: 3rem;
 	}
 	@include media-query(laptop) {
 		display: flex;
@@ -268,17 +268,18 @@
 
 .compliment-view {
 	h3 {
+		width: 100%;
 		font-family: 'Snippet', cursive;
-		font-size: 1.9rem;
-		line-height: 2rem;
-		margin: 40px 0;
+		font-size: 2.75rem;
+		line-height: 3rem;
+		margin: 30px 0;
 	}
 	span {
 		color: $color-accent;
 		text-decoration: underline;
 	}
 	.compliment {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 	}
@@ -287,7 +288,7 @@
 		font-family: 'Sweety Bakery', cursive;
 		color: $color-text-medium;
 		font-size: 2rem;
-		line-height: 2.15rem;
+		line-height: 2.2rem;
 		margin: 30px auto;
 		padding: 10px;
 		background-color: $color-bg-light;
@@ -315,8 +316,8 @@
 
 .compliment-quote {
 	font-family: 'Snippet', cursive;
-	font-size: 2.5rem;
-	line-height: 3rem;
+	font-size: 2rem;
+	line-height: 2.5rem;
 	color: $color-text-medium;
 	margin: 40px auto;
 }

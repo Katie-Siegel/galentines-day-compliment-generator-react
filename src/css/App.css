@@ -1,13 +1,13 @@
 .name-request label {
   width: 100%;
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   margin: 20px auto;
 }
 .name-request #name-input {
-  width: 50vw;
-  font-size: 2rem;
-  line-height: 2.15rem;
+  width: 80vw;
+  font-size: 1.5rem;
+  line-height: 2rem;
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #7a25a7;
@@ -32,11 +32,11 @@
   }
 }
 .name-request #submit-button {
-  width: 50vw;
+  width: 70vw;
   font-family: "Snippet", cursive;
   color: #e38fdc;
-  font-size: 2rem;
-  line-height: 2.15rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #7a25a7;
@@ -56,11 +56,11 @@
   border: 5px solid #0180c5;
 }
 .name-request .name-message {
-  width: 90%;
+  width: 100%;
   margin: 20px auto;
   color: #e38fdc;
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 @media screen and (min-width: 1025px) {
   .name-request {
@@ -72,17 +72,18 @@
 }
 
 .compliment-view h3 {
+  width: 100%;
   font-family: "Snippet", cursive;
-  font-size: 1.9rem;
-  line-height: 2rem;
-  margin: 40px 0;
+  font-size: 2.75rem;
+  line-height: 3rem;
+  margin: 30px 0;
 }
 .compliment-view span {
   color: #0180c5;
   text-decoration: underline;
 }
 .compliment-view .compliment {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -91,7 +92,7 @@
   font-family: "Sweety Bakery", cursive;
   color: #e38fdc;
   font-size: 2rem;
-  line-height: 2.15rem;
+  line-height: 2.2rem;
   margin: 30px auto;
   padding: 10px;
   background-color: #7a25a7;
@@ -118,8 +119,8 @@
 
 .compliment-quote {
   font-family: "Snippet", cursive;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   color: #e38fdc;
   margin: 40px auto;
 }
