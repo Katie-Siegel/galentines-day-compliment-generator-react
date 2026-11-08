@@ -45,7 +45,9 @@ function App() {
 					onClick={handleSubmit}>
 					That's My Girl!
 				</button>
-				<p>{nameMessage}</p>
+				<p className='name-message'>
+					{nameMessage}
+				</p>
 			</section>
 			<Compliment name={name} />
 			<Image />
