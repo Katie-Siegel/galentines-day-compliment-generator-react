@@ -162,11 +162,6 @@ h4 {
 }
 
 .compliment-view {
-	img {
-		width: 100%;
-		height: auto;
-		margin: 20px auto;
-	}
 	h3 {
 		font-family: 'Snippet', cursive;
 		font-size: 1.9rem;
@@ -203,12 +198,22 @@ h4 {
 			border: 5px solid $color-accent;
 		}
 	}
-	.quote {
-		margin: 40px 0;
-		font-size: 2.5rem;
-		line-height: 3rem;
-		color: $color-text-medium;
+}
+
+.compliment-image {
+	img {
+		width: 100%;
+		height: auto;
+		margin: 20px auto;
 	}
+}
+
+.compliment-quote {
+	font-family: 'Snippet', cursive;
+	font-size: 2.5rem;
+	line-height: 3rem;
+	color: $color-text-medium;
+	margin: 40px auto;
 }
 
 .footer {
