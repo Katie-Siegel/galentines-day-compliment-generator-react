@@ -50,8 +50,7 @@ function App() {
 			<Compliment name={name} />
 			<Image />
 			<Quote />
-			{/* Add Quote Functionality Here
-      Add Share Functionality Here */}
+			{/* Add Share Functionality Here */}
 			<div className='border'></div>
 			<Footer />
 		</section>
