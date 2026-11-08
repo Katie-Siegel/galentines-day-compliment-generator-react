@@ -3,8 +3,8 @@ const Footer = () => {
 	return (
 		<footer className='content-wrapper footer'>
 			<p>
-				&copy; {currentYear} Katherine Siegel |
-				Random Stretch Generator. <br />
+				&copy; {currentYear} Katherine Siegel{' '}
+				<br />
 				All rights reserved.
 			</p>
 		</footer>
