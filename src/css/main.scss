@@ -2,11 +2,17 @@
 @import 'mixins';
 
 html {
-	font-size: 14px;
+	font-size: 12px;
 	background-color: $color-bg-light;
 	scroll-behavior: smooth;
 	box-sizing: border-box;
 	@include media-query(tablet) {
+		font-size: 14px;
+	}
+	@include media-query(laptop) {
+		font-size: 16px;
+	}
+	@include media-query(desktop) {
 		font-size: 18px;
 	}
 }
@@ -33,7 +39,7 @@ body {
 
 h1 {
 	font-family: 'Sweety Bakery', cursive;
-	font-size: 4.5rem;
+	font-size: 4rem;
 	line-height: 5rem;
 	color: $color-accent;
 	margin: 10px 0;
@@ -44,6 +50,7 @@ h2 {
 	font-family: 'Snippet', sans-serif;
 	font-size: 1.5rem;
 	line-height: 2rem;
+	margin: 10px 0;
 	color: $color-text-medium;
 }
 

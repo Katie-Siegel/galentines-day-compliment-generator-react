@@ -1,10 +1,20 @@
 html {
-  font-size: 14px;
+  font-size: 12px;
   background-color: #7a25a7;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1680px) {
   html {
     font-size: 18px;
   }
@@ -28,7 +38,7 @@ body {
 
 h1 {
   font-family: "Sweety Bakery", cursive;
-  font-size: 4.5rem;
+  font-size: 4rem;
   line-height: 5rem;
   color: #0180c5;
   margin: 10px 0;
@@ -39,6 +49,7 @@ h2 {
   font-family: "Snippet", sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
+  margin: 10px 0;
   color: #e38fdc;
 }
 
