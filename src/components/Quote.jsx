@@ -1,23 +1,18 @@
 import { useState } from 'react';
-import images from '../data/images';
+import quotes from '../data/quotes-data';
 
-function Image() {
-	const [randomImage, setRandomImage] = useState(
-		images[
-			Math.floor(Math.random() * images.length)
+function Quote() {
+	const [randomQuote, setRandomQuote] = useState(
+		quotes[
+			Math.floor(Math.random() * quotes.length)
 		],
 	);
 
-	console.log(randomImage);
-
 	return (
-		<section className='compliment-image content-wrapper'>
-			<img
-				src={randomImage.img}
-				alt={randomImage.alt}
-				key={randomImage.id}></img>
+		<section className='compliment-quote content-wrapper'>
+			<h3>{randomQuote}</h3>
 		</section>
 	);
 }
 
-export default Image;
+export default Quote;
