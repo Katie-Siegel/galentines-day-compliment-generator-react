@@ -14,6 +14,8 @@
   border: 5px solid #0180c5;
   border-radius: 70px;
   text-align: center;
+  font-weight: bolder;
+  color: #e38fdc;
 }
 .name-request #name-input::-moz-placeholder {
   color: #e38fdc;
@@ -35,6 +37,7 @@
   width: 70vw;
   font-family: "Snippet", cursive;
   color: #e38fdc;
+  font-weight: bolder;
   font-size: 1.5rem;
   line-height: 2rem;
   margin: 20px auto;
@@ -80,7 +83,7 @@
 }
 .compliment-view span {
   color: #0180c5;
-  text-decoration: underline;
+  font-weight: bolder;
 }
 .compliment-view .compliment {
   width: 100%;

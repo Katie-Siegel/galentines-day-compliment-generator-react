@@ -2,11 +2,10 @@ const Footer = () => {
 	const currentYear = new Date().getFullYear();
 	return (
 		<footer className='content-wrapper footer'>
-			<p>
-				&copy; {currentYear} Katherine Siegel{' '}
-				<br />
+			<h3>
+				&copy; {currentYear} Katherine Siegel |
 				All rights reserved.
-			</p>
+			</h3>
 		</footer>
 	);
 };

@@ -18,6 +18,8 @@
 		border: 5px solid $color-accent;
 		border-radius: 70px;
 		text-align: center;
+		font-weight: bolder;
+		color: $color-text-medium;
 		&::placeholder {
 			color: $color-text-medium;
 			font-family: 'Snippet', cursive;
@@ -32,6 +34,7 @@
 		width: 70vw;
 		font-family: 'Snippet', cursive;
 		color: $color-text-medium;
+		font-weight: bolder;
 		font-size: 1.5rem;
 		line-height: 2rem;
 		margin: 20px auto;
@@ -75,7 +78,7 @@
 	}
 	span {
 		color: $color-accent;
-		text-decoration: underline;
+		font-weight: bolder;
 	}
 	.compliment {
 		width: 100%;
