@@ -2,8 +2,7 @@ HTML
 No Notes at this time
 
 CSS/SCSS
-No Notes at this time
+1) Update Color Pallette?
 
 JavaScript
 1) Create functional component for sharing compliment results
-2) images.jsx -- reduce image file sizes.
