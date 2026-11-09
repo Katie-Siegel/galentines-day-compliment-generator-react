@@ -115,7 +115,7 @@
 		display: flex;
 		flex-flow: nowrap row-reverse;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 	}
 
 	.compliment-image {
@@ -143,9 +143,11 @@
 		margin: 1.5rem auto;
 		@include media-query(laptop) {
 			width: 45%;
-			display: block;
+			display: flex;
+			justify-content: center;
+			align-items: start;
 			margin: 0;
-			padding: 1.5rem;
+			padding: 2rem 1.5rem;
 		}
 	}
 }
