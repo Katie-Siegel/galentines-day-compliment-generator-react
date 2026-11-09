@@ -57,7 +57,7 @@
 }
 .name-request .name-message {
   width: 100%;
-  margin: 20px auto;
+  margin: 1.5rem auto;
   color: #e38fdc;
   font-size: 2.5rem;
   line-height: 3rem;
@@ -93,7 +93,7 @@
   color: #e38fdc;
   font-size: 2rem;
   line-height: 2.2rem;
-  margin: 30px auto;
+  margin: 1.5rem auto;
   padding: 10px;
   background-color: #7a25a7;
   border: 5px solid #0180c5;
@@ -112,9 +112,9 @@
 }
 
 .compliment-image img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  margin: 20px auto;
+  margin: 1.5rem auto;
 }
 
 .compliment-quote {
@@ -122,10 +122,10 @@
   font-size: 2rem;
   line-height: 2.5rem;
   color: #e38fdc;
-  margin: 40px auto;
+  margin: 1.5rem auto;
 }
 
 .footer {
-  margin: 10px;
+  margin: 1rem;
   font-size: 1.5rem;
 }

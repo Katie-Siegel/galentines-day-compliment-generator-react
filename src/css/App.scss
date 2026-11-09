@@ -52,7 +52,7 @@
 	}
 	.name-message {
 		width: 100%;
-		margin: 20px auto;
+		margin: 1.5rem auto;
 		color: $color-text-medium;
 		font-size: 2.5rem;
 		line-height: 3rem;
@@ -88,7 +88,7 @@
 		color: $color-text-medium;
 		font-size: 2rem;
 		line-height: 2.2rem;
-		margin: 30px auto;
+		margin: 1.5rem auto;
 		padding: 10px;
 		background-color: $color-bg-light;
 		border: 5px solid $color-accent;
@@ -107,9 +107,9 @@
 
 .compliment-image {
 	img {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
-		margin: 20px auto;
+		margin: 1.5rem auto;
 	}
 }
 
@@ -118,10 +118,10 @@
 	font-size: 2rem;
 	line-height: 2.5rem;
 	color: $color-text-medium;
-	margin: 40px auto;
+	margin: 1.5rem auto;
 }
 
 .footer {
-	margin: 10px;
+	margin: 1rem;
 	font-size: 1.5rem;
 }
