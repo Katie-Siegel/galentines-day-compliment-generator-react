@@ -25,8 +25,41 @@ const images = [
 		alt: 'Three young girls drinking wine and laughing',
 		img: drinking,
 	},
+	{
+		id: 4,
+		alt: 'Two young girls with braids',
+		img: braids,
+	},
+	{
+		id: 5,
+		alt: 'Four friends at night',
+		img: night,
+	},
+	{
+		id: 6,
+		alt: 'Women enjoying a sunset',
+		img: sunset,
+	},
+	{
+		id: 7,
+		alt: 'Three friends together',
+		img: three,
+	},
+	{
+		id: 8,
+		alt: 'Vintage-style women',
+		img: vintage,
+	},
+	{
+		id: 9,
+		alt: 'Women with bubbles',
+		img: bubbles,
+	},
+	{
+		id: 10,
+		alt: 'Women with a car',
+		img: car,
+	},
 ];
 
 export default images;
-
-// NOTE: Remember to decrease img file sizes to improve page load time. Use a tool like TinyPNG or ImageOptim to compress images without losing quality.
