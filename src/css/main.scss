@@ -5,7 +5,6 @@ html {
 	font-size: 12px;
 	background-color: $color-bg-light;
 	scroll-behavior: smooth;
-	box-sizing: border-box;
 	@include media-query(tablet) {
 		font-size: 14px;
 	}
@@ -35,6 +34,7 @@ body {
 	line-height: 2.15rem;
 	color: $color-text-light;
 	background-color: $color-bg-dark;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -59,7 +59,7 @@ h2 {
 	margin: 1.5rem auto;
 	text-align: center;
 	display: flex;
-	flex-flow: wrap;
+	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
 }

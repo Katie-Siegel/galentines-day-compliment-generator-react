@@ -50,7 +50,7 @@ function App() {
 				</p>
 			</section>
 			<Compliment name={name} />
-			<section className='content-wrapper'>
+			<section className='content-wrapper quote-image'>
 				<Quote />
 				<Image />
 			</section>

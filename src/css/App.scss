@@ -69,6 +69,7 @@
 }
 
 .compliment-view {
+	box-sizing: border-box;
 	h3 {
 		width: 100%;
 		font-family: 'Snippet', cursive;
@@ -97,7 +98,7 @@
 		border: 5px solid $color-accent;
 		border-radius: 70px;
 		align-items: center;
-		@include media-query(desktop) {
+		@include media-query(laptop) {
 			max-width: 780px;
 		}
 		&:hover {
@@ -108,23 +109,47 @@
 	}
 }
 
-.compliment-image {
-	img {
+.quote-image {
+	box-sizing: border-box;
+	@include media-query(laptop) {
+		display: flex;
+		flex-flow: nowrap row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.compliment-image {
 		max-width: 100%;
-		height: auto;
+		margin: 1.5rem;
+		img {
+			width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+		@include media-query(laptop) {
+			max-width: 55%;
+			height: auto;
+			display: flex;
+			justify-content: center;
+			margin: 0;
+		}
+	}
+	.compliment-quote {
+		font-family: 'Snippet', cursive;
+		font-size: 2rem;
+		line-height: 2.5rem;
+		color: $color-text-medium;
 		margin: 1.5rem auto;
+		@include media-query(laptop) {
+			width: 45%;
+			display: block;
+			margin: 0;
+			padding: 1.5rem;
+		}
 	}
 }
 
-.compliment-quote {
-	font-family: 'Snippet', cursive;
-	font-size: 2rem;
-	line-height: 2.5rem;
-	color: $color-text-medium;
-	margin: 1.5rem auto;
-}
-
 .footer {
-	margin: 1rem;
 	font-size: 1.5rem;
 }
