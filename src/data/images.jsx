@@ -1,6 +1,13 @@
 import whispering from '../img/girls-whispering.jpg';
 import hugging from '../img/women-hugging.jpg';
 import drinking from '../img/three-girls-drinking.jpg';
+import braids from '../img/girls-braids.jpg';
+import night from '../img/night-friends.jpg';
+import sunset from '../img/sunset-women.jpg';
+import three from '../img/three-friends.jpg';
+import vintage from '../img/vintage-women.jpg';
+import bubbles from '../img/women-bubbles.jpg';
+import car from '../img/women-with-car.jpg';
 
 const images = [
 	{
