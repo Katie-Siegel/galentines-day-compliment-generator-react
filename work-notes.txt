@@ -1,8 +1,0 @@
-HTML
-No Notes at this time
-
-CSS/SCSS
-1) Update Color Pallette?
-
-JavaScript
-1) Create functional component for sharing compliment results
