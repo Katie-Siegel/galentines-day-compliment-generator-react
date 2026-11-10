@@ -1,0 +1,147 @@
+@import 'variables';
+@import 'mixins';
+
+html {
+	font-size: 12px;
+	background-color: $color-bg-light;
+	scroll-behavior: smooth;
+	@include media-query(tablet) {
+		font-size: 14px;
+	}
+	@include media-query(laptop) {
+		font-size: 16px;
+	}
+	@include media-query(desktop) {
+		font-size: 18px;
+	}
+}
+
+@font-face {
+	font-family: 'Sweety Bakery';
+	src: url(../des/sweety-bakery.otf)
+		format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	width: 85%;
+	margin: 1.5rem auto;
+	font-family:
+		'Sweety Bakery', 'Snippet', 'Heebo',
+		sans-serif;
+	font-size: 2rem;
+	line-height: 2.15rem;
+	color: $color-text-light;
+	background-color: $color-bg-dark;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Sweety Bakery', cursive;
+	font-size: 4rem;
+	line-height: 5rem;
+	color: $color-accent;
+	margin: 1rem 0;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Snippet', sans-serif;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin: 1rem 0;
+	color: $color-text-medium;
+}
+
+.content-wrapper {
+	width: 90%;
+	margin: 1.5rem auto;
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-details {
+	margin: 3.3rem auto;
+	text-align: center;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-text {
+	padding: 1.5rem 1rem;
+}
+
+.border {
+	border: 2px solid $color-bg-light;
+	width: 100%;
+}
+
+.intro {
+	margin: 1.5rem auto;
+	text-align: center;
+	@include media-query(desktop) {
+		display: block;
+	}
+}
+
+@media print {
+	*,
+	*::before,
+	*::after {
+		background: $color-white !important;
+		color: $color-black !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+
+	a[href]::after {
+		content: ' (' attr(href) ')';
+	}
+
+	abbr[title]::after {
+		content: ' (' attr(title) ')';
+	}
+
+	a[href^='#']::after,
+	a[href^='javascript:']::after {
+		content: '';
+	}
+
+	pre {
+		white-space: pre-wrap !important;
+	}
+
+	pre,
+	blockquote {
+		border: 1px solid $color-grey;
+		page-break-inside: avoid;
+	}
+
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
+}
